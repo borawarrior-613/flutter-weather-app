@@ -7,7 +7,7 @@ class WeatherController {
   final WeatherModel weatherModel = WeatherModel();
 
   Future<void> fetchWeatherData(String city) async {
-    const apikey = '9c02ff3d1b523344991364aef39b5551';
+    const apikey = 'API_KEY';
     final apiUrl =
         'https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apikey&units=metric';
 
